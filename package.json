@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
-    "start": "expo start",
+    "start": "expo start --tunnel",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web"
@@ -12,7 +12,10 @@
     "expo": "~53.0.9",
     "expo-status-bar": "~2.2.3",
     "react": "19.0.0",
-    "react-native": "0.79.2"
+    "react-native": "0.79.2",
+    "expo-auth-session": "~6.1.5",
+    "undefined": "expo-auth-session/providers/google",
+    "expo-web-browser": "~14.1.6"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
